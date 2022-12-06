@@ -95,45 +95,9 @@ a.pulsingButton:hover {
 <body>
     <div class="container">
         <div class="center">
-            <span style="color: #FDFFFC;  font-size: 33px; font-weight: bold; line-height: 42px; word-spacing: 0px; text-shadow: 2px -2px 45px rgb(0 0 0 / 9%); font-family: 'Montserrat';"><center>Cansado de assistir vídeos e não ganhar nada?</center></span><Br>
-            <center><a  class="btn btn-success pulsingButton" href="https://melhoralcance.com.br" style="background-color: #61ce70; color: #fff; font-size: 22px; padding: 25px 50px; border-radius: 6px;">Descubra o novo método</a></center>
+            <span style="color: #FDFFFC;  font-size: 33px; font-weight: bold; line-height: 42px; word-spacing: 0px; text-shadow: 2px -2px 45px rgb(0 0 0 / 9%); font-family: 'Montserrat';"><center>Seja bem vindo, para continuar clique no link abaixo, estarei te esperando lá.</center></span><Br>
+            <center><a  class="btn btn-success pulsingButton" href="https://wa.me/5582988291668?text=Me+conta+tudo%2C+quero+saber+como+funciona." style="background-color: #61ce70; color: #fff; font-size: 22px; padding: 25px 50px; border-radius: 6px;">Começar Agora</a></center>
         </div>
       </div>
 </body>
-
-<script>
-
-let prefix = ["https://melhoralcance.com.br"];
-
-function getParams() {
-
-let t = "",
-
-    e = window.top.location.href,
-
-    r = new URL(e);
-
-if (null != r) {
-
-    let a = r.searchParams.get("utm_source"),
-        n = r.searchParams.get("utm_medium"),
-        o = r.searchParams.get("utm_campaign"),
-        m = r.searchParams.get("utm_term"),
-        c = r.searchParams.get("utm_content"); - 1 !== e.indexOf("?") && (t = `&sck=${a}|${n}|${o}|${m}|${c}`), console.log(t)
-}
-return t }! function() {
-
-var t = new URLSearchParams(window.location.search);
-
-t.toString() && document.querySelectorAll("a").forEach(function(e) {
-
-    for (let r = 0; r < prefix.length; r++) 
-        - 1 !== e.href.indexOf(prefix[r]) && (-1 === e.href.indexOf("?")
-         ? e.href += "?" + t.toString() + getParams() 
-         : e.href += "&" + t.toString() + getParams())
-})
-
-}();
-
-</script>
 </html>
